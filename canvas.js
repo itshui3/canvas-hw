@@ -349,4 +349,15 @@ drawStraightLine(
 )
 
 // '!' in WORLD!
+x += 35
 
+// !: vertical line body
+drawStraightLine(
+    { x: 0, y: 0 },
+    { x: 0, y: 22 },
+    11
+)
+
+// !: box dot
+// ctx.moveTo(0 + x, 25 + y);
+ctx.fillRect(-5 + x, 25 + y, 11, 11);
